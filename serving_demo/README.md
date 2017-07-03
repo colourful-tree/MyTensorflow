@@ -6,7 +6,7 @@ https://tensorflow.github.io/serving/setup#prerequisites
 2. url:
 https://tensorflow.github.io/serving/serving_basic
 
-3.how to run:
+3. how to run:
     run the serving:
         bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server --port=9000 --model_name=test --model_base_path=test_serving/model
     build the client:
