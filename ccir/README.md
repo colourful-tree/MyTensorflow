@@ -2,6 +2,8 @@
 
 http://huodong.sogou.com/sogou_ccir_qa/
 
+NOTINCE: tensorflow 版本务必使用 0.11.0rc2，否则请修改text_nn.py中代码
+
 很遗憾没有进入前十，最终成绩为 NDCG@3:0.6959 NDCG@5:0.7371 ，只差0.17%
 
 ![image](https://github.com/colourful-tree/MyTensorflow/blob/master/ccir/image/score.jpeg)
@@ -18,3 +20,10 @@ http://huodong.sogou.com/sogou_ccir_qa/
 
 
 ![image](https://github.com/colourful-tree/MyTensorflow/blob/master/ccir/image/acc.png)
+
+题外话：
+前后两个月的评测结束了，结果比较唏嘘，有一些遗憾。
+一方面很好奇前十的队伍有没有同样将这个问题当做分类问题来做的，另一方面在工作之外利用业余时间来实现一些interesting的事情也蛮有趣的，从拿到数据，分析数据，清洗数据，做baseline，想办法，分析网络结构，改变网络结构，分析tensorboard，改变参数等等等等，也学到了很多东西，也没有什么遗憾了。
+（或许用一些工程方法提高一点点badcase的召回就能获得更好的结果了）。
+
+荞麦记于2017.07.04
